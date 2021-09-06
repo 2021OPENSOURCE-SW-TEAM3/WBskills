@@ -1,26 +1,13 @@
-## Contributing
+# CONTRIBUTINGS
 
-You are more than welcome to contribute to `web-skills` in any way you please, including:
+## 유형
+이 오픈소스 프로젝트는 다양한 기여를 환영합니다.
 
-* Updating documentation.
-* Fixing spelling and grammar.
-* Adding tests.
-* Fixing issues and suggesting new features.
-* Blogging, tweeting, and creating tutorials linking to `http://andreasbm.github.io/web-skills`.
-* Reaching out to [@andreasmehlsen](https://twitter.com/andreasmehlsen) on Twitter.
-* Submit an issue or a pull request.
-
-If you want to make some changes to `web-skills` you are very welcome to open a PR with the additions. I can't promise that every PR will get merged, but I'll try to respond to everyone.
-
-## Getting Started
-
-You can find all of the data in the `data` folder. Here, you'll find that skills are part of areas and areas are part of collections. I'll encourage you to get familiar with the structure of the data before getting your hands dirty.
-
-In the `assets` folder you can find all of the images for the skills. The path of the images follows a naming convention based on the collection and area the skill is a part of which is `assets/{{ collection_name }}/{{ area_name }}/{{ skill_name }}.svg`. As an example, the image for the skill "Relational Databases" which is a part of the area "Databases" which is a part of the collection "Databases & Servers" is located at `assets/databases-and-servers/databases/relational-databases.svg`. The design with all assets is located in the `design/design.sketch` file. If you can't open the file you can add the new image to the correct path in the `assets` folder instead. I'll make sure to add it to the sketch file.
-
-To serve the website locally you'll need to run `npm run s`. This will spin up a local dev server and open the browser.
-
-If you have any questions feel free to open an issue or send a PM to [@andreasmehlsen](https://twitter.com/andreasmehlsen) on Twitter.
-
-
-
+* 충북대 소프트웨어학과 교육과정 변경
+* 오타 확인
+* 아이콘 수정
+* 디자인 변경
+ 
+## 수정 방법    
+학년, 학기, 학점, 과목번호, 과목명, 이수구분에 관한 데이터 내용은 `data` 파일에서 확인할 수 있습니다. 과목에 대한 이미지 파일은 `assets`에서 각 학년과 학기에 해당하는 파일에 들어있습니다. 이미지 파일의 이름을 바꾸거나 추가해 내용을 바꿀 수 있습니다. 이미지 파일명은 `data`과목명과 일치해야합니다.   
+ex) assets/1학년/1학기/이산수학.svg 
