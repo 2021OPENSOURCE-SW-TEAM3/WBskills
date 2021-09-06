@@ -1,16 +1,16 @@
-import {fundamentalsCollection} from "./data/fundamentals.js";
-import {webcomponentsCollection} from "./data/web-components.js";
-import {accessibilityCollection} from "./data/accessibility.js";
-import {pwaCollection} from "./data/pwa.js";
+import {freshmanCollection} from "./data/Freshman.js";
+import {juniorCollection} from "./data/Junior.js";
+import {sophomoreCollection} from "./data/Sophomore.js";
+import {seniorCollection} from "./data/Senior.js";
 
 
 /**
  * All available collections.
  */
 export const collections = [
-	fundamentalsCollection,
-	accessibilityCollection,
-	webcomponentsCollection,
-	pwaCollection,
+	freshmanCollection,
+	sophomoreCollection,
+	juniorCollection,
+	seniorCollection,
 
 ];

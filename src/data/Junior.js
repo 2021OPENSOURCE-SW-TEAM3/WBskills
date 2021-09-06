@@ -1,4 +1,4 @@
-export const webcomponentsCollection = {
+export const juniorCollection = {
 	name: "Junior",
 	areas: [
 		{
