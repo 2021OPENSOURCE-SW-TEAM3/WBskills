@@ -3,12 +3,12 @@
 git 브랜치 구조 - git flow
 ---
 
-**Main Branch** - 3개의 리뷰가 필요   
+**Main Branch** - 2개의 리뷰가 필요   
 
     1. Main		
     2. Develop		    
 
-**Support Branch** -	2개의 리뷰 필요   
+**Support Branch** -	1개의 리뷰 필요   
 
     1. Freshman 
     2. Sophomore

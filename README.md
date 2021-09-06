@@ -1,3 +1,61 @@
+# README
+
+## 충북대학교 소프트웨어학과 교육과정    
+web-skills ( https://github.com/andreasbm/web-skills.git ) 오픈소스 프로젝트를 이용해 충북대학교 소프트웨어학과 교육과정으로 수정 프로젝트   
+참고주소 (https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887531)
+
+
+Description
+---
+
+충북대학교 소프트웨어학과 교육과정을 알려주는 프로젝트
+Web-Skills 오픈 소스 활용
+
+Environment
+---
+
+* Windows에서 Git bash 사용해 수정할 것을 권장
+* Git bash는 관리자 권한을 통해 실행
+* Web Site는 node.js를 설치해 Git bash에서 열기를 권장
+
+
+구체적인 작업 방식 및 파일에 대한 설명은 RULE.md와  CONTRIBUTING.md 참고
+
+참고주소   
+-https://github.com/andreasbm/web-skills.git   
+-https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887531   
+-https://git-scm.com/downloads   
+-https://nodejs.org/ko/
+
+
+
+## data파일 소스코드 블록 작성법
+```js
+export const fundamentalsCollection = {
+	name: "학년",
+	areas: [
+		{
+			name: "학기",
+			skills: [
+				{
+					name: "과목명",
+					description: {
+						text: "과목 영문명",
+						links: [
+							["이수 구분", ""],
+							["교과목 번호", ""],
+							["학점", ""],
+						]
+					}
+				}
+            ]
+        }
+    ]
+}		
+```
+
+
+
 <!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">Web Skills</h1>
 <p align="center">
 
