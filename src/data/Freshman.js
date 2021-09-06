@@ -1,4 +1,4 @@
-export const fundamentalsCollection = {
+export const freshmanCollection = {
 	name: "Freshman",
 	areas: [
 		{
