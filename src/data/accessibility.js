@@ -1,185 +1,173 @@
 export const accessibilityCollection = {
-	name: "Accessibility",
+	name: "2학년",
 	areas: [
 		{
+			name: "1학기",
 			skills: [
 				{
-					name: "The why",
+					name: "자료구조",
 					description: {
-						text: "Learn what accessibility is and why it is important.",
+						text: "Data Structures",
 						links: [
-							["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
-							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
-							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
-							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
-							["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
-							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
-							["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
+							["이수구분 : 전필", ""],
+							["교과목 번호 : 5111006", ""],
+							["학점 : 3-3-1", ""],
 						]
 					}
 				},
 				{
-					name: "Screen Readers",
+					name: "컴퓨터구조",
 					description: {
-						text: "Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.",
+						text: "Computer Architecture",
 						links: [
-							["The A11Y Project - Screen Reader Myths", "https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/"],
-							["The A11Y Project - NVDA Screen Reader", "https://a11yproject.com/posts/getting-started-with-nvda/"],
-							["The A11Y Project - OS X Voiceover", "https://a11yproject.com/posts/getting-started-with-voiceover/"],
-							["Webaim - Screen Reader Survey", "https://webaim.org/projects/screenreadersurvey7/"]
+							["이수구분 : 전필", ""],
+							["교과목 번호 : 5111010", ""],
+							["학점 : 3-3-0", ""],
 						]
 					}
 				},
 				{
-					name: "Accessibility tree",
+					name: "소프트웨어실전영어",
 					description: {
-						text: "Learn about the accessibility tree and how assistive technology uses it.",
+						text: "English for SW Development",
 						links: [
-							["Google Devs - The Accessibility Tree", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree"]
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111085", ""],
+							["학점 : 2-2-0", ""],
 						]
 					},
-					skills: [
-						{
-							name: "ARIA",
-							description: {
-								text: "Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.",
-								links: [
-									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
-									["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
-									["The A11Y Project - ARIA States", "https://a11yproject.com/posts/ARIA-states/"],
-									["The A11Y Project - ARIA Properties", "https://a11yproject.com/posts/ARIA-properties/"],
-								]
-							}
-						},
-						{
-							name: "Accessible HTML",
-							description: {
-								text: "Learn how to write HTML in such as way that assistive technology better understands it.",
-								links: [
-									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
-									["MDN - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
-									["Webaim - Skip navigation", "https://webaim.org/techniques/skipnav/"],
-									["w3c - Headings", "https://www.w3.org/WAI/tutorials/page-structure/headings/"],
-									["Freecodecamp - Semantic Elements", "https://guide.freecodecamp.org/html/html5-semantic-elements/"]
-								]
-							},
-							skills: [
-								{
-									name: "Alt text",
-									description: {
-										text: "Learn how to use the alt attribute to provide a useful text alternative to this image.",
-										links: [
-											["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
-											["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
-											["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
-										]
-									}
-								}
-							]
-						},
-						{
-							name: "Accessible CSS",
-							description: {
-								text: "Learn how to write CSS in such as way that assistive technology better understands it.",
-								links: [
-									["Webaim - CSS", "https://webaim.org/techniques/css/"]
-								]
-							}
-						},
-					]
+
 				},
 				{
-					name: "Accessible forms",
+					name: "객체지향 프로그래밍",
 					description: {
-						text: "Learn how to build accessible forms that makes it usable to as many people as possible.",
+						text: "Object-Oriented Programming",
 						links: [
-							["Webaim - Forms", "https://webaim.org/techniques/forms/"],
-							["Itnext - Form Accessibility Gudie", "https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14"]
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111007", ""],
+							["학점 : 3-2-2", ""],
 						]
 					}
 				},
 				{
-					name: "UI States",
+					name: "선형대수학",
 					description: {
-						text: "Learn how to make the state of each UI element clear.",
+						text: "Linear Algebra",
 						links: [
-							["Google Devs - Accessible Styles", "https://developers.google.com/web/fundamentals/accessibility/accessible-styles"]
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111081", ""],
+							["학점 : 3-3-0", ""],
 						]
 					}
 				},
 				{
-					name: "Keyboard Accessibility",
+					name: "미래설계구현",
 					description: {
-						text: "Learn how to make it easy for keyboard users to navigate your site.",
+						text: "Implementation of Future Design",
 						links: [
-							["Webaim - Keyboard", "https://webaim.org/techniques/keyboard/"],
-							["Smashing Magazine - Web with just a keyboard", "https://www.smashingmagazine.com/2018/07/web-with-just-a-keyboard/"]
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111083", ""],
+							["학점 : 1-0-2", ""],
 						]
 					},
-					skills: [
-						{
-							name: "Focus",
-							description: {
-								text: "Learn how to create a sensible tab order and how to make it easy for the users to locate the currently focused element.",
-								links: [
-									["web.dev - Control focus with tabindex", "https://web.dev/control-focus-with-tabindex/"],
-									["Google Devs - Focus", "https://developers.google.com/web/fundamentals/accessibility/focus/"],
-									["Google Devs - Dom Order Matters", "https://developers.google.com/web/fundamentals/accessibility/focus/dom-order-matters"],
-									["Google Devs - Using Tabindex", "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex"],
-									["Google Devs - Track Focus", "https://developers.google.com/web/tools/chrome-devtools/accessibility/focus"],
-									["MDN - :focus-visible", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"],
-									["MDN - :focus-within", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within"]
-								]
-							}
-						}
-					]
+
 				},
 				{
-					name: "Accessible Colors",
+					name: "오픈소스 기초프로젝트",
 					description: {
-						text: "Learn how to select colors in such a way that users, including those with visual disabilities, can perceive the content on the page.",
+						text: "Fundamental of Open Source SW Project",
 						links: [
-							["Webaim - Contrast and Color", "https://webaim.org/articles/contrast/"],
-							["The A11Y Project - Check contrast", "https://a11yproject.com/posts/check-contrast-with-mobile-device/"],
-							["The A11Y Project - What is color contrast?", "https://a11yproject.com/posts/what-is-color-contrast/"],
-							["Designing accessible color systems", "https://stripe.com/en-dk/blog/accessible-color-systems"],
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111084", ""],
+							["학점 : 2-0-4", ""],
 						]
 					}
-				},
-				{
-					name: "Laws & Policies",
-					description: {
-						text: "Learn about the governmental policies related to web accessibility.",
-						links: [
-							["W3C - Laws & Policies", "https://www.w3.org/WAI/policies/"],
-							["Webaim - Laws around the world", "https://webaim.org/articles/laws/world/"],
-							["Webaim - Section 508", "https://webaim.org/standards/508/checklist"],
-							["Webaim - WCAG 2 Checklist", "https://webaim.org/standards/wcag/checklist"],
-							["A11Y.dev - Lawsuits", "https://a11y.dev/470-digital-accessibility-cases-were-filed-in-q3-2018/"],
-						]
-					},
-					skills: [
-						{
-							name: "Audits",
-							description: {
-								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
-								links: [
-									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
-									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
-									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
-									["Webaim - Wave", "http://wave.webaim.org/"],
-									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
-									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
-									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
-								]
-							}
-						}
-					]
 				}
-			]
+			],
+		},
+		{
+			name: "2학기",
+			skills: [
+				{
+					name: "알고리즘",
+					description: {
+						text: "Algorithms",
+						links: [
+							["이수구분 : 전필", ""],
+							["교과목 번호 : 5111022", ""],
+							["학점 : 3-3-0", ""],
+						]
+					}
+				},
+				{
+					name: "프로그래밍언어이론",
+					description: {
+						text: "Principles of Programming Languages",
+						links: [
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111011", ""],
+							["학점 : 3-3-0", ""]
+						]
+					},
+				},
+				{
+					name: "시스템프로그래밍",
+					description: {
+						text: "Systems Programming",
+						links: [
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111012", ""],
+							["학점 : 3-3-0", ""],
+						]
+					},
+
+				},
+				{
+					name: "창업탐색",
+					description: {
+						text: "Start-up Exploration",
+						links: [
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111086", ""],
+							["학점 : 1-0-2", ""],
+						]
+					}
+				},
+				{
+					name: "오픈소스개발프로젝트",
+					description: {
+						text: "Development of Open Source SW Project",
+						links: [
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111070", ""],
+							["학점 : 2-0-4", ""],
+						]
+					}
+				},
+				{
+					name: "확률및통계",
+					description: {
+						text: "Probability and Statistics",
+						links: [
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111013", ""],
+							["학점 : 3-3-0", ""],
+						]
+					},
+
+				},
+				{
+					name: "컴퓨터그래픽스",
+					description: {
+						text: "Computer Graphics)",
+						links: [
+							["이수구분 : 전선", ""],
+							["교과목 번호 : 5111013", ""],
+							["학점 : 3-3-0", ""],
+						]
+					}
+				}
+			],
 		}
 	]
-};
+}
