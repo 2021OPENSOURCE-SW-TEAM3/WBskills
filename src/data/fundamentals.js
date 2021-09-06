@@ -72,7 +72,7 @@ export const fundamentalsCollection = {
 						links: [
 							["이수 구분 : 전선", ""],
 							["교과목 번호 : ", ""],
-							["학점 : 1-0-2", ""],
+							["학점 : 1-0-2 ", ""],
 						]
 					},
 
