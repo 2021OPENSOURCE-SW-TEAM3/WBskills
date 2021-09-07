@@ -1,4 +1,4 @@
-export const pwaCollection = {
+export const seniorCollection = {
 	name: "Senior",
 	areas: [
 		{

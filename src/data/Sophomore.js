@@ -1,4 +1,4 @@
-export const accessibilityCollection = {
+export const sophomoreCollection = {
 	name: "Sophomore",
 	areas: [
 		{
